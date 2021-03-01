@@ -1,0 +1,157 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+    "window.zoomLevel": 0,
+    // "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "python.pythonPath": "C:\\Python38\\python.exe",
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.windows": "C:\\Users\\DaniS\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vs-kubernetes.minikube-path.windows": "C:\\Users\\DaniS\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vs-kubernetes.draft-path.windows": "C:\\Users\\DaniS\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe"
+    },
+    "kite.showWelcomeNotificationOnStartup": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.inlineValues": true,
+    "html.format.indentInnerHtml": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "npm-intellisense.showBuildInLibs": true,
+    "prettier.withNodeModules": true,
+    // "debug.node.autoAttach": "off",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    //"debug.javascript.usePreview": false,
+    "C_Cpp.default.intelliSenseMode": "msvc-x64",
+    "mssql.intelliSense.lowerCaseSuggestions": true,
+    "mssql.connections": [
+        {
+            "connectionString": "Data Source=RAZER-BLADE-STE\\INFO5052;Initial Catalog=TestDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+            "profileName": "danny_hvc",
+            "database": "TestDB",
+            "user": "",
+            "server": "RAZER-BLADE-STE\\INFO5052",
+            "authenticationType": "Integrated",
+            "password": ""
+        }
+    ],
+    "terminal.explorerKind": "external",
+    "terminal.integrated.cursorStyle": "line",
+    "jupyter.askForKernelRestart": false,
+    "workbench.activityBar.visible": true,
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "debug.onTaskErrors": "showErrors",
+    "dashboard.projectData": null,
+    "todo-tree.tree.showScanModeButton": false,
+    "C_Cpp.updateChannel": "Insiders",
+
+    //my customizations
+    "[python]": {
+        "editor.rulers": [80]
+    },
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "editor.background" : "#1E1E1E",
+            "sideBar.background": "#252526",
+            "tab.inactiveBackground": "#252526",
+            "panel.background": "#252526",
+            "tab.border": "#000000",
+            "editorGroupHeader.tabsBackground": "#252526",
+            "sideBarSectionHeader.background": "#1E1E1E",
+        },
+        "[eppz!]": {
+            "editor.background" : "#1E1E1E",
+            "sideBar.background": "#252526",
+            "tab.inactiveBackground": "#252526",
+            "panel.background": "#252526",
+            "tab.border": "#000000",
+            "editorGroupHeader.tabsBackground": "#252526",
+            "sideBarSectionHeader.background": "#1E1E1E",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "textMateRules" : [
+                {
+                    "scope":"variable.parameter",
+                    "settings": {
+                        "foreground": "#eb7a74c5",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope" : "variable",
+                    "settings": {
+                        "foreground": "#00ffff"
+                    }
+                },
+                {
+                    "scope" : "entity.name.function",
+                    "settings": {
+                        "foreground": "#ffc552",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope" : "keyword.operator",
+                    "settings": {
+                        "foreground": "#cc8500",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope":"constant",
+                    "settings": {
+                        // "foreground": "#4FC1FF",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope" : "meta.class",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },  
+                {
+                    "scope" : "string",
+                    "settings": {
+                        "foreground": "#cfb59c"
+                    }
+                }
+            ]
+        },
+    },
+    "editor.fontSize": 12,
+    "python.analysis.diagnosticMode": "workspace",
+    "pylance.insidersChannel": "daily",
+    "python.analysis.completeFunctionParens": true,
+    "git.confirmSync": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "cmake.configureOnOpen": true,
+    "redhat.telemetry.enabled": false,
+    "debug.javascript.debugByLinkOptions": "always",
+    "debug.javascript.autoAttachFilter": "smart",
+    "debug.javascript.usePreview": false,
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.jupyterServerType": "local"
+}
