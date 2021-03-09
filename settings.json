@@ -60,7 +60,10 @@
 
     //my customizations
     "[python]": {
-        "editor.rulers": [80]
+        "editor.rulers": [
+            80
+        ],
+        "editor.defaultFormatter": "ms-python.python"
     },
     "workbench.preferredDarkColorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
@@ -132,11 +135,17 @@
                     "settings": {
                         "foreground": "#cfb59c"
                     }
+                },
+                {
+                    "scope":"string.quoted.docstring.multi.python",
+                    "settings": {
+                        "foreground": "#325e1660" //docstring comments
+                    }
                 }
             ]
         },
     },
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
     "python.analysis.diagnosticMode": "workspace",
     "pylance.insidersChannel": "daily",
     "python.analysis.completeFunctionParens": true,
@@ -153,5 +162,16 @@
     "debug.javascript.autoAttachFilter": "smart",
     "debug.javascript.usePreview": false,
     "jupyter.alwaysTrustNotebooks": true,
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "glassit.alpha": 255,
+    "explorer.compactFolders": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
