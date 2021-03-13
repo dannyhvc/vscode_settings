@@ -33,7 +33,6 @@
         "configurations": [],
         "compounds": []
     },
-    //"debug.javascript.usePreview": false,
     "C_Cpp.default.intelliSenseMode": "msvc-x64",
     "mssql.intelliSense.lowerCaseSuggestions": true,
     "mssql.connections": [
@@ -61,7 +60,7 @@
     //my customizations
     "[python]": {
         "editor.rulers": [
-            80
+            81
         ],
         "editor.defaultFormatter": "ms-python.python"
     },
@@ -145,7 +144,9 @@
             ]
         },
     },
-    "editor.fontSize": 14,
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true, 
+    "editor.fontFamily": "cascadia code",
     "python.analysis.diagnosticMode": "workspace",
     "pylance.insidersChannel": "daily",
     "python.analysis.completeFunctionParens": true,
@@ -163,7 +164,6 @@
     "debug.javascript.usePreview": false,
     "jupyter.alwaysTrustNotebooks": true,
     "jupyter.jupyterServerType": "local",
-    "glassit.alpha": 255,
     "explorer.compactFolders": false,
     "workbench.editorAssociations": [
         {
@@ -173,5 +173,10 @@
     ],
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.sideBar.location": "right",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}"
 }
