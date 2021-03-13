@@ -17,35 +17,27 @@
     },
     "kite.showWelcomeNotificationOnStartup": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+
     "debug.allowBreakpointsEverywhere": true,
     "debug.inlineValues": true,
     "html.format.indentInnerHtml": true,
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+
     "npm-intellisense.showBuildInLibs": true,
     "prettier.withNodeModules": true,
     // "debug.node.autoAttach": "off",
-    "launch": {
-        "configurations": [],
-        "compounds": []
-    },
     "C_Cpp.default.intelliSenseMode": "msvc-x64",
     "mssql.intelliSense.lowerCaseSuggestions": true,
-    "mssql.connections": [
-        {
-            "connectionString": "Data Source=RAZER-BLADE-STE\\INFO5052;Initial Catalog=TestDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
-            "profileName": "danny_hvc",
-            "database": "TestDB",
-            "user": "",
-            "server": "RAZER-BLADE-STE\\INFO5052",
-            "authenticationType": "Integrated",
-            "password": ""
-        }
-    ],
+    // "mssql.connections": [
+    //     {
+    //         "connectionString": "Data Source=RAZER-BLADE-STE\\INFO5052;Initial Catalog=TestDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+    //         "profileName": "danny_hvc",
+    //         "database": "TestDB",
+    //         "user": "",
+    //         "server": "RAZER-BLADE-STE\\INFO5052",
+    //         "authenticationType": "Integrated",
+    //         "password": ""
+    //     }
+    // ],
     "terminal.explorerKind": "external",
     "terminal.integrated.cursorStyle": "line",
     "jupyter.askForKernelRestart": false,
@@ -53,17 +45,11 @@
     "git.autofetch": true,
     "diffEditor.ignoreTrimWhitespace": true,
     "debug.onTaskErrors": "showErrors",
-    "dashboard.projectData": null,
     "todo-tree.tree.showScanModeButton": false,
     "C_Cpp.updateChannel": "Insiders",
 
     //my customizations
-    "[python]": {
-        "editor.rulers": [
-            81
-        ],
-        "editor.defaultFormatter": "ms-python.python"
-    },
+
     "workbench.preferredDarkColorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
@@ -86,6 +72,7 @@
             "sideBarSectionHeader.background": "#1E1E1E",
         }
     },
+    // my custom themes
     "editor.tokenColorCustomizations": {
         "[Default Dark+]": {
             "textMateRules" : [
@@ -147,6 +134,7 @@
     "editor.fontSize": 12,
     "editor.fontLigatures": true, 
     "editor.fontFamily": "cascadia code",
+
     "python.analysis.diagnosticMode": "workspace",
     "pylance.insidersChannel": "daily",
     "python.analysis.completeFunctionParens": true,
@@ -158,7 +146,6 @@
         "**/.factorypath": true
     },
     "cmake.configureOnOpen": true,
-    "redhat.telemetry.enabled": false,
     "debug.javascript.debugByLinkOptions": "always",
     "debug.javascript.autoAttachFilter": "smart",
     "debug.javascript.usePreview": false,
@@ -171,12 +158,27 @@
             "filenamePattern": "*.ipynb"
         }
     ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.rulers": [
+            81
+        ],
+        "editor.defaultFormatter": "ms-python.python"
+    },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "workbench.sideBar.location": "right",
-    "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}"
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "js/ts.implicitProjectConfig.strictNullChecks": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
 }
