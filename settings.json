@@ -125,7 +125,7 @@
                 {
                     "scope":"string.quoted.docstring.multi.python",
                     "settings": {
-                        "foreground": "#325e1660" //docstring comments
+                        "foreground": "#b3ff008f" //docstring comments
                     }
                 }
             ]
@@ -147,7 +147,7 @@
     },
     "cmake.configureOnOpen": true,
     "debug.javascript.debugByLinkOptions": "always",
-    "debug.javascript.autoAttachFilter": "smart",
+    "debug.javascript.autoAttachFilter": "always",
     "debug.javascript.usePreview": false,
     "jupyter.alwaysTrustNotebooks": true,
     "jupyter.jupyterServerType": "local",
@@ -180,5 +180,6 @@
     "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
     "js/ts.implicitProjectConfig.checkJs": true,
     "js/ts.implicitProjectConfig.strictNullChecks": true,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "workbench.startupEditor": "welcomePage"
 }
