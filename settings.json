@@ -1,13 +1,11 @@
 {
-  "auto-rename-tag.activationOnLanguage": [
-    "*"
-  ],
   "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "breadcrumbs.enabled": true,
   "color-highlight.markerType": "underline",
   "color-highlight.matchWords": true,
   "css.validate": true,
   "debug.inlineValues": true,
+  "debug.javascript.usePreview": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "diffEditor.renderSideBySide": false,
   "editor.autoIndent": "full",
@@ -35,9 +33,7 @@
   "editor.renderControlCharacters": true,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "all",
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "editor.scrollBeyondLastLine": false,
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
@@ -88,40 +84,23 @@
   "git.fetchOnPull": true,
   "git.inputValidationSubjectLength": 72,
   "gitlens.advanced.messages": {
-    "suppressFileNotUnderSourceControlWarning": true,
+    "suppressFileNotUnderSourceControlWarning": true
   },
   "gitlens.blame.avatars": false,
   "gitlens.blame.ignoreWhitespace": true,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.scopes": [
-    "document",
-    "containers",
-    "blocks"
-  ],
+  "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
   "gitlens.hovers.annotations.changes": false,
   "gitlens.hovers.annotations.enabled": false,
   "gitlens.keymap": "alternate",
   "gitlens.views.repositories.avatars": false,
   "gitlens.views.repositories.files.layout": "list",
   "incrementor.enums.values": [
-    [
-      "false",
-      "true"
-    ],
-    [
-      "let",
-      "const"
-    ],
-    [
-      "flex",
-      "inline-flex",
-      "block",
-      "inline-block",
-      "inline",
-      "none"
-    ]
+    ["false", "true"],
+    ["let", "const"],
+    ["flex", "inline-flex", "block", "inline-block", "inline", "none"]
   ],
   "javascript.preferences.importModuleSpecifier": "relative",
   "javascript.preferences.quoteStyle": "single",
@@ -232,7 +211,6 @@
   "sync.autoDownload": true,
   "sync.autoUpload": true,
   "sync.forceUpload": true,
-  "sync.gist": "425776a08d001fa9912119a9084ac9aa",
   "sync.quietSync": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
@@ -314,7 +292,7 @@
           }
         }
       ]
-    },
+    }
   },
   "typescript.locale": "en",
   "typescript.preferences.quoteStyle": "single",
@@ -346,5 +324,24 @@
   "window.newWindowDimensions": "maximized",
   "git.suggestSmartCommit": false,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  "todohighlight.isEnable": true
+  "todohighlight.isEnable": true,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "python.showStartPage": false,
+  "python.languageServer": "Pylance",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "C_Cpp.default.intelliSenseMode": "msvc-x64",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false
 }
