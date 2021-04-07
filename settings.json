@@ -33,7 +33,6 @@
   "editor.renderControlCharacters": true,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "all",
-  "editor.rulers": [80],
   "editor.scrollBeyondLastLine": false,
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
@@ -43,7 +42,7 @@
   "editor.tabSize": 2,
   "editor.unfoldOnClickAfterEndOfLine": true,
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
-  "editor.wordWrap": "wordWrapColumn",
+
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "jsx-sublime-babel-tags": "javascriptreact"
@@ -208,10 +207,10 @@
       "snippet": "JSON.stringify($TM_SELECTED_TEXT)$0"
     }
   },
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
-  "sync.forceUpload": true,
-  "sync.quietSync": true,
+  // "sync.autoDownload": true,
+  // "sync.autoUpload": true,
+  // "sync.forceUpload": true,
+  // "sync.quietSync": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "terminal.external.osxExec": "iTerm.app",
@@ -314,7 +313,6 @@
   "workbench.list.keyboardNavigation": "filter",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
   "workbench.view.alwaysShowHeaderActions": true,
   "editor.cursorSmoothCaretAnimation": true,
   "window.autoDetectColorScheme": true,
@@ -323,7 +321,7 @@
   "workbench.preferredHighContrastColorTheme": "Default Light+",
   "window.newWindowDimensions": "maximized",
   "git.suggestSmartCommit": false,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "todohighlight.isEnable": true,
   "workbench.editorAssociations": [
     {
@@ -333,15 +331,37 @@
   ],
   "python.showStartPage": false,
   "python.languageServer": "Pylance",
-  "kite.showWelcomeNotificationOnStartup": false,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[python]": {
+    "editor.rulers": [80],
+    "editor.wordWrap": "wordWrapColumn"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "workbench.iconTheme": "vscode-icons",
   "C_Cpp.default.intelliSenseMode": "msvc-x64",
   "explorer.confirmDragAndDrop": false,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "python.pythonPath": "C:\\Python38\\python.exe",
+  "cmake.configureOnOpen": true,
+  "prettier.useEditorConfig": false,
+
+  "debug.onTaskErrors": "abort",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true
 }
